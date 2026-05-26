@@ -583,6 +583,7 @@ footer {
     width: 270px;
     height: 270px;
   }
+
   .participant__photo {
     width: 293px;
     height: 299px;
@@ -601,12 +602,15 @@ footer {
   .container {
     padding: 0 72px;
   }
+
   .hero__title {
     letter-spacing: 1.9px;
   }
+
   .support__text {
     letter-spacing: 0px;
   }
+
   .support__table :after {
     content: "";
     position: absolute;
@@ -615,6 +619,7 @@ footer {
     left: 306px;
     border: 1px solid #d0d0d0;
   }
+
   .title-module__common {
     letter-spacing: 1.7px;
   }
@@ -625,6 +630,7 @@ footer {
     width: 320px;
     height: 320px;
   }
+
   .participant__photo {
     margin: 22px 0 0 13px;
   }
@@ -632,18 +638,20 @@ footer {
 
 /* SM Second */
 
-@media (max-width: 1215px) {
-}
+@media (max-width: 1215px) {}
 
 @media (max-width: 1199px) {
+
   /* common */
   .container {
     padding: 0 20px;
   }
+
   /* support */
   .support__text {
     margin: 0;
   }
+
   .suppport-top__text-wrapper {
     display: flex;
     flex-direction: column;
@@ -652,6 +660,7 @@ footer {
     background-size: 335px 212px;
     background-position: center center;
   }
+
   /* .support__table__pair {
     flex-direction: column;
   } */
@@ -659,34 +668,43 @@ footer {
   .steps__title {
     padding: 0px 270px 0 0;
   }
+
   .steps__additional-text {
     top: 64px;
   }
+
   .steps__list {
     grid-template-columns: 1fr 1fr;
   }
+
   .steps__item {
     padding: 62px 24px 66px 72px;
   }
+
   .steps__item::after {
     top: 62px;
   }
+
   .steps__item:nth-child(3) {
     grid-row: span 1;
   }
+
   .steps__item:nth-child(7) {
     padding-right: 397px;
     grid-column: span 2 / span 1;
     grid-row-start: 4;
   }
+
   .carousel-steps__block::after {
     top: 607px;
     right: 0px;
   }
+
   /* participants */
   .participants__list {
     gap: 30px;
   }
+
   .carousel-participants__controlls {
     position: static;
     margin-left: auto;
@@ -701,18 +719,22 @@ footer {
     background-color: rgba(255, 255, 255, 0.9);
     border: none;
   }
+
   /* Support */
   .custom-container {
     grid-template-columns: 1fr;
     padding: 0 20px 120px;
   }
+
   .support__text {
     font-size: 28px;
   }
+
   .support-banner__image {
     text-align: center;
     grid-row: 1 span;
   }
+
   /* Steps */
   .carousel-steps__block::after {
     top: -183px;
@@ -722,6 +744,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
+
   .title-module__common {
     font-size: 36px;
   }
@@ -737,9 +760,11 @@ footer {
     top: 0px;
     left: 0px;
   }
+
   .steps__item:nth-child(7) {
     padding: 62px 24px 66px 72px;
   }
+
   /* Participants */
   .participants-list__wrapper {
     padding-bottom: 40px;
@@ -747,12 +772,14 @@ footer {
 }
 
 @media (max-width: 767px) {
+
   /* Commons */
   .def-button.bttn-trans,
   .def-button {
     font-size: 16px;
     padding: 14px 17px 14px;
   }
+
   /* Banner */
   .hero__content {
     width: 100%;
@@ -760,26 +787,33 @@ footer {
     margin: 0 auto;
     padding: 90px 0 277px 0;
   }
+
   .hero__title {
     font-size: 36px;
   }
+
   .hero__subtitle {
     text-align: left;
     font-size: 18px;
   }
+
   .hedero-banner__buttons {
     flex-direction: column;
   }
+
   .section-hero {
     background-image: url(../img/bgmob.webp);
   }
+
   /* Steps */
   .steps__list {
     display: flex;
   }
+
   .carousel-steps__wrapper {
     overflow: hidden;
   }
+
   .carousel-slide {
     display: flex;
     flex: 0 0 100%;
@@ -789,6 +823,7 @@ footer {
     flex-direction: column;
     gap: 28px;
   }
+
   .steps__item {
     display: flex;
     /* flex: 0 0 100%; */
@@ -796,14 +831,17 @@ footer {
     background-image: none;
     line-break: auto;
   }
+
   .steps__item,
   .steps__item:nth-child(7) {
     padding: 0px;
   }
+
   .steps__item::after {
     top: 0px;
     left: -50px;
   }
+
   .carousel-steps__controls {
     position: absolute;
     bottom: -70px;
@@ -852,6 +890,7 @@ footer {
     align-items: center;
     margin-top: 10px;
   }
+
   .carousel-steps__dot {
     width: 10px;
     height: 10px;
@@ -861,6 +900,7 @@ footer {
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
+
   .carousel-steps__dot--active {
     background-color: #313131;
   }
@@ -869,13 +909,16 @@ footer {
     background-color: #d9d9d9;
     pointer-events: none;
   }
+
   .carousel-steps__arrow--disabled::after {
     background-color: #d9d9d9;
   }
+
   .carousel-steps__arrow:hover::after,
   .carousel-steps__arrow:hover {
     background-color: #fbce51;
   }
+
   /* Marquee */
   .marquee__list li {
     font-size: 16px;
@@ -886,6 +929,7 @@ footer {
   .header-logo {
     top: 19px;
   }
+
   .carousel-steps__block::after {
     top: -133px;
   }
@@ -899,89 +943,112 @@ footer {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .header-logo {
     width: 213px;
     top: 18px;
   }
+
   .section-hero {
     background-image: url(../img/bg_sm_mb.jpg);
     background-position: 0px 0px;
   }
+
   .hero__content {
     padding: 90px 0 290px 0;
   }
+
   .hero__title {
     font-size: 36px;
     margin: 0 0 26px 0;
   }
+
   .hero__subtitle {
     margin: 0 0 29px 0;
   }
+
   .hedero-banner__buttons {
     display: flex;
     gap: 13px;
   }
+
   .marquee__list {
     padding: 10px 0;
   }
+
   .suppport-top__text-wrapper {
     background-size: contain;
     background-position: 0px 222px;
   }
+
   .support-banner__image {
     overflow: clip;
   }
+
   .support-banner__image img {
     width: 335px;
     height: 402px;
     margin-left: -17px;
   }
+
   .support__table {
     margin: 20px 0 21px 0;
   }
+
   .support__table__pair {
     padding: 16px 0;
     gap: 12px;
   }
+
   .support__table-term {
     width: auto;
   }
+
   .support__additional-text {
     font-size: 18px;
   }
+
   .participant__photo-wrapper {
     width: 244px;
     height: 244px;
   }
+
   .steps__title {
     padding-right: 0px;
     margin: 0 0 10px 0;
   }
+
   .carousel-steps__block::after {
     top: -142px;
     right: -15px;
   }
+
   .carousel-steps__wrapper {
     margin-bottom: 190px;
   }
+
   .steps__item {
     font-size: 18px;
   }
+
   .title__participants {
     margin-bottom: 38px;
   }
+
   .carousel-participants {
     padding: 0 0 94px 0;
   }
+
   .participant__photo {
     width: 227px;
     height: 240px;
     margin: 14px auto 0 7px;
   }
+
   .carousel-participants__controlls {
     gap: 10px;
   }
+
   .carousel-participants__controlls button {
     width: 36px;
     height: 36px;
