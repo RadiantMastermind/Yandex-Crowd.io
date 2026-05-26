@@ -539,10 +539,10 @@ function initResponsiveCarousel() {
   }
 }
 
-// INIT
+// Инициализация
 document.addEventListener("DOMContentLoaded", initResponsiveCarousel);
 
-// RESIZE
+// Ресайз
 let resizeTimer;
 
 window.addEventListener("resize", () => {
