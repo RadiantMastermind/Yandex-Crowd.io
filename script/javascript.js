@@ -1,6 +1,7 @@
 function initMarquees() {
+  //Находим селектор 
   const marquees = document.querySelectorAll(".marquee");
-
+  //Цикл обработки
   marquees.forEach((marquee) => {
     const track = marquee.querySelector(".marquee__track");
     if (!track) return;
@@ -31,6 +32,7 @@ function initMarquees() {
 function addMarqueeKeyframes() {
   if (document.querySelector("#marquee-keyframes")) return;
 
+  // Анимация для прокрутки
   const style = document.createElement("style");
   style.id = "marquee-keyframes";
   style.textContent = `
@@ -70,6 +72,7 @@ window.addEventListener("resize", () => {
   resizeTimeout = setTimeout(reinitMarquees, 200);
 });
 
+// Плавный якорь
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", (e) => {
     e.preventDefault();
